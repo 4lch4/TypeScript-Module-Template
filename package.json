@@ -1,0 +1,38 @@
+{
+  "name": "@4lch4/typescript-module-template",
+  "version": "0.0.1",
+  "description": "A template repository for a TypeScript Module.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "package": "rm -rf ./dist; tsc --pretty",
+    "install:clean": "rm -rf ./node_modules; rm -f pnpm-lock.yaml; pnpm i",
+    "pretty:code": "prettier --write *.ts",
+    "pretty:project": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4lch4/TypeScript-Module-Template.git"
+  },
+  "author": {
+    "email": "hello@4lch4.dev",
+    "name": "4lch4",
+    "url": "https://4lch4.dev"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/4lch4/TypeScript-Module-Template/issues"
+  },
+  "homepage": "https://github.com/4lch4/TypeScript-Module-Template#readme",
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "typescript": "3.9.5"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "semi": false,
+    "tabWidth": 2,
+    "useTabs": false,
+    "trailingComma": "none"
+  }
+}
