@@ -26,13 +26,5 @@
   "devDependencies": {
     "prettier": "2.0.5",
     "typescript": "3.9.6"
-  },
-  "prettier": {
-    "singleQuote": true,
-    "arrowParens": "avoid",
-    "semi": false,
-    "tabWidth": 2,
-    "useTabs": false,
-    "trailingComma": "none"
   }
 }
