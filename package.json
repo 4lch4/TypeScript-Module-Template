@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/4lch4/TypeScript-Module-Template#readme",
   "devDependencies": {
-    "prettier": "2.5.1",
+    "prettier": "2.6.1",
     "typescript": "3.9.5"
   },
   "prettier": {
